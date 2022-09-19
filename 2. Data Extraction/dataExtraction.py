@@ -22,9 +22,12 @@ trs = soup.find_all("tr")
 
 nameVal = {}
 for i in range(0, len(trs)):
-    name = trs[i].contents[0].text
-    value = trs[i].contents[1].text
-    nameVal[name] = value
+    try:
+        name = trs[i].contents[0].text
+        value = trs[i].contents[1].text
+        nameVal[name] = value
+    except:
+        continue
 
     if name == finalName:
         break
