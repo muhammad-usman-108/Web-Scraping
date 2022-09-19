@@ -21,3 +21,6 @@ API end point: `https://finance.yahoo.com/quote/AAPL?p=AAPL`
 
 2. Extract the previous close value from yahoo finance using `beautiful soup 4`
 API end point: `https://finance.yahoo.com/quote/AAPL?p=AAPL`
+
+3. Extract all data in the table
+Now that you've see how we went about extracting the first value, see if you can extract all of the values contained within that table, starting at "Previous Close" and ending at "1y Target Est".
