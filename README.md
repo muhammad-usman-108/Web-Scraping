@@ -16,5 +16,8 @@ Web scraping in python: Practicing Udemy course
 
 
 ### Tasks:
-1.Extract the previous close value from yahoo finance
+1. Extract the previous close value from yahoo finance using `requests`.
+API end point: `https://finance.yahoo.com/quote/AAPL?p=AAPL`
+
+2. Extract the previous close value from yahoo finance using `beautiful soup 4`
 API end point: `https://finance.yahoo.com/quote/AAPL?p=AAPL`
